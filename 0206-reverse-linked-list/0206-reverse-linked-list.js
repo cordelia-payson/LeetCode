@@ -10,11 +10,6 @@
  * @return {ListNode}
  */
 var reverseList = function(head) {
-    // get child of head
-      // get grandchild
-    // swap
-    //continue until no more next 
-    
     if (head === null || head.next === null) {
         return head;
     }
